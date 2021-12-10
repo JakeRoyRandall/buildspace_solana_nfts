@@ -5,11 +5,13 @@ import { MintLayout, TOKEN_PROGRAM_ID, Token } from "@solana/spl-token";
 import { programs } from "@metaplex/js";
 import "./CandyMachine.css";
 import CountdownTimer from "../CountdownTimer/CountdownTimer";
+
 import {
   candyMachineProgram,
   TOKEN_METADATA_PROGRAM_ID,
   SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID,
 } from "./helpers";
+
 const {
   metadata: { Metadata, MetadataProgram },
 } = programs;
@@ -189,7 +191,6 @@ const CandyMachine = ({ walletAddress }) => {
 
       console.log("txn:", txn);
 
-      // Setup listener
       connection.onSignatureWithOptions(
         txn,
         async (notification, context) => {
