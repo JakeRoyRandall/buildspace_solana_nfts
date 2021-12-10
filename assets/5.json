@@ -1,0 +1,57 @@
+{
+	"name": "Doggos #5",
+	"symbol": "DOGGO",
+	"description": "Doggos NFTs",
+	"seller_fee_basis_points": 500,
+	"image": "image.png",
+	"external_url": "https://doggos.dog",
+	"edition": 106,
+	"attributes": [{
+			"trait_type": "Fur Length",
+			"value": "Short"
+		},
+		{
+			"trait_type": "Costume",
+			"value": "None"
+		},
+		{
+			"trait_type": "Background",
+			"value": "Light Yellow"
+		},
+		{
+			"trait_type": "Fur Color",
+			"value": "Light Purple"
+		},
+		{
+			"trait_type": "Accessories",
+			"value": "Red Collar"
+		},
+		{
+			"trait_type": "Ears",
+			"value": "Pointy"
+		},
+		{
+			"trait_type": "Mouth",
+			"value": "Bone"
+		},
+		{
+			"trait_type": "Eyes",
+			"value": "Normal"
+		},
+		{
+			"trait_type": "Head",
+			"value": "None"
+		}
+	],
+	"properties": {
+		"files": [{
+			"uri": "image.png",
+			"type": "image/png"
+		}],
+		"category": "image",
+		"creators": [{
+			"address": "5dGW7qGhsbYj8rfzAtx2i4RjEkeVAX9BirUj1wBxxcj7",
+			"share": 100
+		}]
+	}
+}
